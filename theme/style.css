@@ -1,26 +1,26 @@
 h1{
-  color:#00ff0a;
+  color:#00ff17;
   font-size:5em;
   }
   h2{
     font-weight:bold;
     width:100px;
-    color: grey;
+    color: #c1b8b8;
   }
   p{
-    color:#ab00ffb3;
+    color:#0e00c7b3;
   }
   #contact{
     font-style: italic;
   }
   div{
-    background-color:papayawhip; width:500px;
+    background-color:#476180; width:700px;
   }
   .backdrop{
 
   }
   #barf{
-    background-color: orange;
+    background-color: #00ff34c7;
   }
   .mid-width {
     width: 500px;
