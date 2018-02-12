@@ -9,6 +9,7 @@ h1{
   }
   p{
     color:#0e00c7b3;
+    font-weight: bold;
   }
   #contact{
     font-style: italic;
@@ -25,3 +26,6 @@ h1{
   .mid-width {
     width: 500px;
   }
+ol{
+
+}
