@@ -1,0 +1,27 @@
+h1{
+  color:#00ff0a;
+  font-size:5em;
+  }
+  h2{
+    font-weight:bold;
+    width:100px;
+    color: grey;
+  }
+  p{
+    color:#ab00ffb3;
+  }
+  #contact{
+    font-style: italic;
+  }
+  div{
+    background-color:papayawhip; width:500px;
+  }
+  .backdrop{
+
+  }
+  #barf{
+    background-color: orange;
+  }
+  .mid-width {
+    width: 500px;
+  }
