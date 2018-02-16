@@ -78,3 +78,24 @@ ol li:nth-child(3n) {
 #content ol > li {
   font-weight: bold;
 }
+#navigation > ul > li {
+display: inline;
+}
+#navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.3rem;
+  width: 100vw;
+  background-color: orange;
+}
+#navigation .dropdown {
+  display: none;
+  position: relative;
+}
+#navigation a:hover + .dropdown {
+  display: block;
+}
+#navigation li:first-child {
+  position: relative;
+}
