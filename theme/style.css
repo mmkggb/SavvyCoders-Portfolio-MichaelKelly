@@ -30,7 +30,7 @@ ol{
 
 }
 #navigation {
-  padding: 8px;
+  /*padding: 8px;*/
   margin: 0 auto;
 }
 #header{
@@ -80,6 +80,15 @@ ol li:nth-child(3n) {
 }
 #navigation > ul > li {
 display: inline;
+position: relative;
+}
+#navigation ul.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+
 }
 #navigation {
   position: fixed;
@@ -89,13 +98,21 @@ display: inline;
   width: 100vw;
   background-color: orange;
 }
-#navigation .dropdown {
-  display: none;
-  position: relative;
+
+#navigation ul.container {
+  display:flex;
 }
-#navigation a:hover + .dropdown {
+#navigation a:hover + .dropdown,
+ #navigation .dropdown:hover {
   display: block;
 }
+#navigation .dropdown {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+}
+
+
 #navigation li:first-child {
   position: relative;
 }
