@@ -12,11 +12,17 @@
 <body>
   <div id="navigation">
     <ul class="container">
-      <li><a  href="../Projects/index.html">Projects</a></li>
-      <li class="dropdown">Entry level work </li>
-          <li>First</li>
-      <li>Second</li>
-      <li>Third</li>
+      <li><a  href="../Projects/index.html">Projects</a>
+      <ul class="dropdown">
+      <li>Entry level work </li>
+      </ul>
+      </li>
+      <li><a href="../blog/index.html">Blog</a>
+      <ul class="dropdown">
+        <li>Blog updates</li>
+      </ul>
+      </li>
+  <li>Other Information</li>
     </ul>
   </div>
 
@@ -37,14 +43,14 @@
   <input type="text" name="lastname" value="Last Name" size="100">
   <input type="email" name="userEmail" placeholder="your.email@example.com">
 
-  <label>What's this message about?
+  <label>Your reason for contacting me?
     <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
     <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
-    <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
+    <input type="radio" name="subject" value="other" checked><span>Startup/Personal Project collaboration</span>
   </label>
 
   <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
-  <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
+  <input type="checkbox" name="optout" value="skeptical" disabled>Recieve current project(s) description
 
   <label for="marketing">How did you hear about me?</label>
   <select name="marketing">
