@@ -8,25 +8,23 @@ var title = $h1.text();
 function greetUser(){
     var firstName = $user.val();
 
-
     if( firstName ){
         $h1.text( title + " " + firstName );
         // document.querySelector( "h1" ).textContent = "Hello " + firstName + " Welcome to Michael Kelly Savvy Coders Website!";
     }
-
-    function inputCallback( event ){
-      if(event.which === 13){
+}
+function inputCallback( event ){
+    if( event.which === 13 ){
         greetUser();
     }
 }
-
-/* $( "#header" ).on( "click", ()=> alert("hooray")
-    greetUser );*/
 
 
 $user.on( "keypress", inputCallback( event ) );
 $( "#greet" ).on( "click", greetUser );
 
+/* $( "#header" ).on( "click", ()=> alert("hooray")
+    greetUser );*/
 
 /* document
     .querySelector( "#header" )
@@ -36,4 +34,4 @@ $( "#greet" ).on( "click", greetUser );
     );
 */
 // greetUser();
-//console.log( document.querySelectorAll( someSelector ) );
+// console.log( document.querySelectorAll( someSelector ) );
