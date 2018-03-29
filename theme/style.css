@@ -13,6 +13,11 @@ h2 {
     font-size:3em;
     color: #c1b8b8;
     }
+  #footer h3 {
+
+    margin-bottom: 1.0rem;
+    margin-top: 0;
+    }
 
 p {
     color:#0e00c7b3;
@@ -44,6 +49,9 @@ ol li:nth-child(2) {
 ol li:nth-child(3n) {
   background-color: turquoise;
     }
+    div#form{
+      width: fit-content;
+    }
 #MainBackground{
   background-image: url("https://i.imgur.com/wJpl38i.jpg");
   background-repeat: no-repeat;
@@ -54,14 +62,19 @@ ol li:nth-child(3n) {
     }
 
   #MainBackgroundProjects {
-    background-image: url("https://i.imgur.com/SGmICug.jpg");
+    background-image: url("https://i.imgur.com/WLpHQPO.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    background-position-y: top;
     background-size: cover;
   }
 
 #barf {
-    background-color: rgba(0, 222, 99, 0.25);
+    background-color: rgba(178, 0, 222, 0.66);
+    color: beige;
+    font-weight: 600;
+    width: 100%;
     }
 
 #content {
@@ -81,9 +94,10 @@ ol li:nth-child(3n) {
   color: #4e0877;
    }
 
-#navigation > ul > li {
+#navigation  ul > li {
 display: inline;
 position: relative;
+-webkit-text-stroke-color: black;
    }
 #navigation ul.container{
   display: flex;
@@ -95,7 +109,8 @@ position: relative;
   }
 
 #navigation > ul {
-  color: red;
+  color: white;
+  font-weight: bold;
   }
 
 #navigation ul.container {
@@ -124,17 +139,35 @@ position: relative;
   }
 
 #footer {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  margin-bottom: -2.5%;
+  width: 100%;
+  bottom: 0;
   }
 #footer ul {
   display: flex;
   justify-content: space-around;
+  padding-top: 11px; 
   }
+
 
 #contact{
   font-style: italic;
   font-family: Verdana;
   }
+  #form {
+  margin-top: 4%;
+}
+#contactBackdrop {
+  background-color: #1b2b9e47;
+  padding-left: 10px;
+
+}
+
 .mikeImage {
   margin: 0 auto;
   display: grid;

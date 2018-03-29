@@ -13,7 +13,17 @@ function greetUser(){
         // document.querySelector( "h1" ).textContent = "Hello " + firstName + " Welcome to Michael Kelly Savvy Coders Website!";
     }
 }
-function inputCallback( event ){
+
+/* $( "#user" ).bind( "click",function( e ){
+    greetUser();
+} );
+$( "#user" ).keyup( function( e ){
+    if( e.keyCode == 13 ){
+        $( this ).trigger( "click" );
+    }
+} ); */
+
+/* function inputCallback( event ){
     if( event.which === 13 ){
         greetUser();
     }
@@ -22,6 +32,14 @@ function inputCallback( event ){
 
 $user.on( "keypress", inputCallback( event ) );
 $( "#greet" ).on( "click", greetUser );
+*/
+
+var inp = $( "#input" );
+
+$( "#user" ).click( () => {
+    $( "#res" ).text( "hello"  );
+    console.log( "hello" );
+} );
 
 /* $( "#header" ).on( "click", ()=> alert("hooray")
     greetUser );*/

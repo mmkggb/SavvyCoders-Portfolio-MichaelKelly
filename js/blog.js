@@ -7,9 +7,10 @@ var $content = $( "#content" );
 function generatePosts( posts ){
     var $postsLists = $( "<ul>" );
     var $postItems = $postsLists
-        .filter(
+        .slice( 0, 11 )
+        /* .filter(
             ( post ) => post.id < 11
-        )
+        )*/
         .map(
             ( post ) => $( "<li>" ).text( post.title )
         );

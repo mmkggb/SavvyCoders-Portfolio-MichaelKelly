@@ -5,6 +5,6 @@ martisemk@gmail.com
 
 
 ***SavvyCoders Portfolio Page***
-[SavvyCoders Portfolio Page!](https://savvycoders-portfolio-mike.netlify.com/)
+[Click Link!](https://savvycoders-portfolio-mike.netlify.com/)
 
 ![My Face](https://i.imgur.com/QTOnS26.jpg)
